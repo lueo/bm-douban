@@ -23,7 +23,7 @@ foreach ($comments as $comment) {
 		<?php echo get_avatar($comment,$size='48',$default=''); ?>
 		<h4 class="com-green">
 			<CITE><?php print get_comment_author_link(); ?></CITE>
-			<SMALL><?php print get_comment_date(); ?>&nbsp;<?php print get_comment_time(); ?><?php edit_comment_link(__('(Edit)'),'  ','') ?>   <?php echo $start; ?></SMALL> 
+			<SMALL><?php print get_comment_date(); ?>&nbsp;<?php print get_comment_time(); ?><?php edit_comment_link(__('(Edit)'),'  ','') ?></SMALL> 
 			<span class="replay-button" style="display:none;"> <?php comment_reply_link(array('depth' => $depth,'max_depth' => '12', 'reply_text' => "[回复]")) ?></span>
         </h4>
 	</div>

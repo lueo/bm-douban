@@ -3,8 +3,7 @@
         
             </span>
             <span class="rleft">
-				<script src="http://s14.cnzz.com/stat.php?id=2722175&web_id=2722175" language="JavaScript"></script>
-
+				<a href="http://bammoo.com/archive">站点地图</a>    
             </span>
         </div>
 

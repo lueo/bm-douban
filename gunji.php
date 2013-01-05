@@ -22,139 +22,115 @@ Template Name: gunji
 	<div class="comments-box">
 
 
-<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
+		<?php 	bm_comment_form(); 	?>
 
-<?php if ( !$user_ID ) : ?>
+			<h2 id="comments" class="comment-green"><?php comments_number(__('No Comments', 'bm'), __('One Comment', 'bm'), __('% Comments', 'bm') );?>　· · · · · ·  	</h2>
 
-<p><input class="text" type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
-<label for="author"><small><?php _e('Name', 'bm') ?>(<?php if ($req) _e('required', 'bm'); ?>)</small></label></p>
-
-<p><input class="text" type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
-<label for="email"><small><?php _e('Mail', 'bm') ?> (<?php _e('wont publish', 'bm'); ?>) (<?php if ($req) _e('required', 'bm'); ?>)</small></label></p>
-
-<p><input class="text" type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
-<label for="url"><small><?php _e('website', 'bm') ?></small></label></p>
-
-<?php endif; ?>
-
-
-<?php do_action('comment_form', $post->ID); ?>
-
-<p><textarea name="comment" id="comment" rows="4" cols="54" class="resizable" tabindex="4"></textarea></p>
-
-<p><input class="input_submit" name="submit" type="submit" id="submit" tabindex="5" value="<?php _e( 'submit comment', 'bm' ); ?>" />
-<?php comment_id_fields(); ?>
-</p>
-
-</form>
-
-
-		<h2 id="comments" class="comment-green"><?php comments_number(__('No Comments', 'bm'), __('One Comment', 'bm'), __('% Comments', 'bm') );?>　· · · · · ·  	</h2>
-
-		<ol class="commentlist" id="gunji">
-<?php 
-global $post;
-$comment_array = get_comments('order=ASC&post_id='.$post->ID);
-$total_comments = count($comment_array);
-if(!is_array($comment_array)) return;
-$comment_array = array_reverse($comment_array, TRUE);
-
-$i=0;
-$now_show=30;
-$show_more=10;
-foreach($comment_array as $com_id){
-	$i++;	
-	if($i>$now_show)
-		continue;
-	$comment = get_comment($com_id);
-	$GLOBALS['comment'] = $comment; ?>
-		<li id="comment-<?php comment_ID(); ?>" <?php if($comment->comment_parent=='0')comment_class();else comment_class("reply"); ?> id="li-comment-<?php comment_ID() ?>">
-			<div class="comment-author">
-				<?php echo get_avatar($comment,$size='48',$default=''); ?>
-				<h4 class="com-green">
-					<CITE><?php comment_author_link(); ?></CITE>
-					<SMALL><?php comment_date(); ?>&nbsp;<?php comment_time(); ?><?php edit_comment_link(__('(Edit)'),'  ','') ?></SMALL> 
-					<span class="replay-button" style="display:none;"> <?php comment_reply_link(array('depth' => $depth,'max_depth' => '12', 'reply_text' => "[回复]")) ?></span>
-				</h4>
-			</div>
-			<div class="comment-content">
-				<?php comment_text();  ?>
-			</div>
-		</li>
+			<ol class="commentlist" id="gunji">
 	<?php 
-}
-?>
-		</ol>
-		<p><a href="javascript:void(0);" id="more">显示更多>></a></p>
-		<p id="gunji-loading">LOADING...</p>
-	<form id="gunji-form">
-		<input type="hidden" name="now_showing" id="now_showing" value="<?php echo $now_show; ?>" />
-		<input type="hidden" name="show_more" id="show_more" value="<?php echo $show_more; ?>" />
-		<input type="hidden" name="post_id" id="post_id" value="<?php echo $post->ID; ?>" />
-		<input type="hidden" name="total_cmts" id="total_cmts" value="<?php echo $total_comments; ?>" />
-	</form>
-		<div class="clear"></div>
+	global $post;
+	$comment_array = get_comments('order=ASC&post_id='.$post->ID);
+	$total_comments = count($comment_array);
+	if(!is_array($comment_array)) return;
+	$comment_array = array_reverse($comment_array, TRUE);
 
-<script type="text/javascript">
-<!--
-	//Variables
-var loading = jQuery("#gunji-loading");
-var more = jQuery("#more");
-var target_page, query, now_showing, total_cmts;
+	$i=0;
+	$now_show=30;
+	$show_more=10;
+	foreach($comment_array as $com_id){
+		$i++;	
+		if($i>$now_show)
+			continue;
+		$comment = get_comment($com_id);
+		$GLOBALS['comment'] = $comment; ?>
+			<li id="comment-<?php comment_ID(); ?>" <?php if($comment->comment_parent=='0')comment_class();else comment_class("reply"); ?> id="li-comment-<?php comment_ID() ?>">
+				<div class="comment-author">
+					<?php echo get_avatar($comment,$size='48',$default=''); ?>
+					<h4 class="com-green">
+						<CITE><?php comment_author_link(); ?></CITE>
+						<SMALL><?php comment_date(); ?>&nbsp;<?php comment_time(); ?><?php edit_comment_link(__('(Edit)'),'  ','') ?></SMALL> 
+						<span class="replay-button" style="display:none;"> <?php comment_reply_link(array('depth' => $depth,'max_depth' => '12', 'reply_text' => "[回复]")) ?></span>
+					</h4>
+				</div>
+				<div class="comment-content">
+					<?php comment_text();  ?>
+				</div>
+			</li>
+		<?php 
+	}
+	?>
+			</ol>
+			<p><a href="javascript:void(0);" id="more">显示更多>></a></p>
+			<p id="gunji-loading">LOADING...</p>
+		<form id="gunji-form">
+			<input type="hidden" name="now_showing" id="now_showing" value="<?php echo $now_show; ?>" />
+			<input type="hidden" name="show_more" id="show_more" value="<?php echo $show_more; ?>" />
+			<input type="hidden" name="post_id" id="post_id" value="<?php echo $post->ID; ?>" />
+			<input type="hidden" name="total_cmts" id="total_cmts" value="<?php echo $total_comments; ?>" />
+		</form>
+			<div class="clear"></div>
 
-//show loading bar
-function showLoading(){
-    loading.slideDown("slow");
-}
-//hide loading bar
-function hideLoading(){
-    loading.slideUp("slow");
-};
+		<script type="text/javascript">
+		<!--
+			//Variables
+		var loading = jQuery("#gunji-loading");
+		var more = jQuery("#more");
+		var target_page, query, now_showing, total_cmts;
 
-//update now showing after every click of show more
-function update_now(){
-    now_showing = parseInt(jQuery("#now_showing").attr("value")) + parseInt(jQuery("#show_more").attr("value"));
-    jQuery("#now_showing").attr("value", now_showing );
-    
-    //hide show more when total comments are shown
-    total_cmts = parseInt(jQuery("#total_cmts").attr("value"));
-    if(now_showing >= total_cmts)
-        more.slideUp("slow");
-}
-
-//When show more clicked
-more.click(function(){
-    showLoading();
-    
-    //define target page and query string
-    target_page = "<?php echo THEMEURL; ?>/gunji-ajax.php";
-    query = jQuery("#gunji-form").serialize();
-
-/** Ajax */
-	jQuery.ajax( {
-		url: target_page,
-		data: query,
-		type: 'post',
-
-		error: function(request) {
-			hideLoading();
-			content_location.after('error');
-			},
-
-		success: function(data) {
-			hideLoading();
-			jQuery("#gunji li:last").after(data);
-			update_now();
+		//show loading bar
+		function showLoading(){
+			loading.slideDown("slow");
 		}
-	}); // end Ajax
-  return false;
-});
+		//hide loading bar
+		function hideLoading(){
+			loading.slideUp("slow");
+		};
 
-//intially hide loading bar
-hideLoading();
-//-->
-</script>
-		  <?php endwhile; endif; ?>
+		//update now showing after every click of show more
+		function update_now(){
+			now_showing = parseInt(jQuery("#now_showing").attr("value")) + parseInt(jQuery("#show_more").attr("value"));
+			jQuery("#now_showing").attr("value", now_showing );
+			
+			//hide show more when total comments are shown
+			total_cmts = parseInt(jQuery("#total_cmts").attr("value"));
+			if(now_showing >= total_cmts)
+				more.slideUp("slow");
+		}
+
+		//When show more clicked
+		more.click(function(){
+			showLoading();
+			
+			//define target page and query string
+			target_page = "<?php echo THEMEURL; ?>/gunji-ajax.php";
+			query = jQuery("#gunji-form").serialize();
+
+		/** Ajax */
+			jQuery.ajax( {
+				url: target_page,
+				data: query,
+				type: 'post',
+
+				error: function(request) {
+					hideLoading();
+					content_location.after('error');
+					},
+
+				success: function(data) {
+					hideLoading();
+					jQuery("#gunji li:last").after(data);
+					update_now();
+				}
+			}); // end Ajax
+		  return false;
+		});
+
+		//intially hide loading bar
+		hideLoading();
+		//-->
+		</script>
+
+  <?php endwhile; endif; ?>
 
 	</div>
 </div>
