@@ -3,7 +3,7 @@
         
             </span>
             <span class="rleft">
-				<a href="http://bammoo.com/archive">站点地图</a>    
+				<a href="http://bammoo.com/sitemap" title="站点导航">站点导航</a>
             </span>
         </div>
 

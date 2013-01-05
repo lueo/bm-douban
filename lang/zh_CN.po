@@ -1,0 +1,485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-25 12:08+0800\n"
+"PO-Revision-Date: 2012-04-25 12:08+0800\n"
+"Last-Translator: nx <info@nx-produciton.com>\n"
+"Language-Team: bm\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:9
+#: archive.php:12
+#: archive.php:15
+#: archive.php:18
+msgid "Archive"
+msgstr "文章存档"
+
+#: archive.php:21
+msgid "Archive by Author"
+msgstr "作者文章存档："
+
+#: archive.php:24
+msgid "Tag Archives:"
+msgstr "文章存档"
+
+#: archive.php:27
+msgid "Search Results for: "
+msgstr "“ %s ”的搜索结果"
+
+#: comments-ajax.php:26
+#: comments-ajax.php:32
+#: comments-ajax.php:35
+msgid "Invalid comment status."
+msgstr ""
+
+#: comments-ajax.php:29
+msgid "Sorry, comments are closed for this item."
+msgstr "抱歉，暂时不能评论"
+
+#: comments-ajax.php:38
+msgid "Password Protected"
+msgstr ""
+
+#: comments-ajax.php:65
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: comments-ajax.php:72
+msgid "Error: please fill the required fields (name, email)."
+msgstr ""
+
+#: comments-ajax.php:74
+msgid "Error: please enter a valid email address."
+msgstr "请输入您的邮箱！"
+
+#: comments-ajax.php:78
+msgid "Error: please type a comment."
+msgstr "错误：请输入你的评论内容"
+
+#: comments-ajax.php:92
+msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
+msgstr ""
+
+#: comments-ajax.php:101
+msgid "You are posting comments too quickly.  Slow down."
+msgstr ""
+
+#: comments-ajax.php:145
+#: functions.php:117
+#: gunji-ajax.php:26
+#: gunji.php:76
+msgid "(Edit)"
+msgstr "（编辑）"
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "本文需要密码后才能查看"
+
+#: comments.php:19
+#: gunji.php:52
+msgid "No Comments"
+msgstr "暂无评论"
+
+#: comments.php:19
+#: gunji.php:52
+msgid "One Comment"
+msgstr "一条评论"
+
+#: comments.php:19
+#: gunji.php:52
+msgid "% Comments"
+msgstr " % 评论"
+
+#: comments.php:49
+#: gunji.php:30
+msgid "Name"
+msgstr "姓名"
+
+#: comments.php:49
+#: comments.php:52
+#: gunji.php:30
+#: gunji.php:33
+msgid "required"
+msgstr "(必填)"
+
+#: comments.php:52
+#: gunji.php:33
+msgid "Mail"
+msgstr "邮箱"
+
+#: comments.php:52
+#: gunji.php:33
+msgid "wont publish"
+msgstr "不会公开"
+
+#: comments.php:55
+#: gunji.php:36
+msgid "website"
+msgstr "网站"
+
+#: comments.php:64
+#: gunji.php:45
+msgid "submit comment"
+msgstr "评论"
+
+#: functions.php:40
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "阅读全文 <span class=\"meta-nav\">&rarr;</span>"
+
+#: theme-widgets.php:9
+#: widgets.php:9
+msgid "display comment details"
+msgstr "BM评论显示增强版"
+
+#: theme-widgets.php:10
+#: widgets.php:10
+msgid "BM display comment plus"
+msgstr "BM评论显示增强版"
+
+#: theme-widgets.php:74
+#: theme-widgets.php:145
+#: theme-widgets.php:246
+#: theme-widgets.php:425
+#: widgets.php:74
+#: widgets.php:145
+#: widgets.php:246
+#: widgets.php:425
+msgid "Title:"
+msgstr "标题："
+
+#: theme-widgets.php:77
+#: widgets.php:77
+msgid "exclude_id:"
+msgstr ""
+
+#: theme-widgets.php:80
+#: widgets.php:80
+msgid "only_id:"
+msgstr ""
+
+#: theme-widgets.php:97
+#: widgets.php:97
+msgid "display tags as a list"
+msgstr "以列表形式显示标签"
+
+#: theme-widgets.php:98
+#: widgets.php:98
+msgid "Bm Tag Widget"
+msgstr "BM标签列表"
+
+#: theme-widgets.php:148
+#: widgets.php:148
+msgid "amount:"
+msgstr "数量："
+
+#: theme-widgets.php:161
+#: widgets.php:161
+msgid "face list of readers"
+msgstr "显示读者头像"
+
+#: theme-widgets.php:162
+#: widgets.php:162
+msgid "Bm Readers Widget"
+msgstr "BM读者墙"
+
+#: theme-widgets.php:249
+#: widgets.php:249
+msgid "time limit settings:"
+msgstr "时间限制"
+
+#: theme-widgets.php:254
+#: widgets.php:254
+msgid "week(s)"
+msgstr "周"
+
+#: theme-widgets.php:255
+#: widgets.php:255
+msgid "month(s)"
+msgstr "月"
+
+#: theme-widgets.php:256
+#: widgets.php:256
+msgid "year(s)"
+msgstr "年"
+
+#: theme-widgets.php:260
+#: widgets.php:260
+msgid "exclude users' name: (use , to sperate 2 or more users)"
+msgstr ""
+
+#: theme-widgets.php:263
+#: widgets.php:263
+msgid "faces amount:"
+msgstr "头像数量："
+
+#: theme-widgets.php:275
+#: widgets.php:275
+msgid "display images from galleries"
+msgstr "从ngg图集中显示图片"
+
+#: theme-widgets.php:276
+#: widgets.php:276
+msgid "BM NextGEN Widget"
+msgstr "BM ngg图集"
+
+#: theme-widgets.php:306
+#: widgets.php:306
+msgid "Title :"
+msgstr "标题："
+
+#: theme-widgets.php:312
+#: widgets.php:312
+msgid "Show :"
+msgstr "显示："
+
+#: theme-widgets.php:318
+#: widgets.php:318
+msgid "Width x Height :"
+msgstr ""
+
+#: theme-widgets.php:383
+#: widgets.php:383
+msgid "show WP-Polls polls plus"
+msgstr "WP-Polls 投票插件增强版"
+
+#: theme-widgets.php:384
+#: widgets.php:384
+msgid "BM Polls"
+msgstr "BM投票"
+
+#: theme-widgets.php:419
+#: widgets.php:419
+msgid "Polls"
+msgstr "投票"
+
+#: theme-widgets.php:428
+#: widgets.php:428
+msgid "Display Polls Archive Link Below Poll?"
+msgstr ""
+
+#: theme-widgets.php:430
+#: widgets.php:430
+msgid "No"
+msgstr ""
+
+#: theme-widgets.php:431
+#: widgets.php:431
+msgid "Yes"
+msgstr ""
+
+#: theme-widgets.php:436
+#: widgets.php:436
+msgid "Poll To Display:"
+msgstr ""
+
+#: theme-widgets.php:438
+#: widgets.php:438
+msgid "Do NOT Display Poll (Disable)"
+msgstr ""
+
+#: theme-widgets.php:439
+#: widgets.php:439
+msgid "Display Random Poll"
+msgstr "随机投票"
+
+#: theme-widgets.php:440
+#: widgets.php:440
+msgid "Display Latest Poll"
+msgstr ""
+
+#~ msgid "prev page"
+#~ msgstr "上一页"
+
+#~ msgid "next page"
+#~ msgstr "下一页"
+
+#~ msgid "closed comments"
+#~ msgstr "未开放评论功能"
+
+#~ msgid "Not Found"
+#~ msgstr "没有你要找的！"
+
+#~ msgid ""
+#~ "Apologies, but the page you requested could not be found. Perhaps "
+#~ "searching will help."
+#~ msgstr "很抱歉，找不到你要的，建议你搜索一下。"
+
+#~ msgid "Search in site..."
+#~ msgstr "站内搜索..."
+
+#~ msgid "yearly archive"
+#~ msgstr "年度存档"
+
+#~ msgid "monthly archive"
+#~ msgstr "文章存档"
+
+#~ msgid "category archive"
+#~ msgstr "文章存档"
+
+#~ msgid "posts archive"
+#~ msgstr "文章存档"
+
+#~ msgid "you must be"
+#~ msgstr "你必须"
+
+#~ msgid "logged in"
+#~ msgstr "登录："
+
+#~ msgid "to post comment"
+#~ msgstr "发布评论"
+
+#~ msgid "logged as"
+#~ msgstr "你的登录身份是："
+
+#~ msgid "log out"
+#~ msgstr "注销"
+
+#~ msgid "name"
+#~ msgstr "姓名"
+
+#~ msgid "(required)"
+#~ msgstr "(必填)"
+
+#~ msgid "(mail)"
+#~ msgstr "邮箱"
+
+#~ msgid "(wont publish)"
+#~ msgstr "(不会公开)"
+
+#~ msgid "Close this window."
+#~ msgstr "关闭窗口"
+
+#~ msgid "Comments are closed."
+#~ msgstr "抱歉，暂时不能评论"
+
+#~ msgid "posts rank"
+#~ msgstr "阅读排行"
+
+#~ msgid "in text"
+#~ msgstr "分类："
+
+#~ msgid "1 Comment"
+#~ msgstr "暂无评论"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Continue reading&nbsp;&raquo;&nbsp;"
+#~ msgstr "全文&nbsp;&raquo;&nbsp;"
+
+#~ msgid "You are here: "
+#~ msgstr "当前位置："
+
+#~ msgid "home "
+#~ msgstr "首页"
+
+#~ msgid "posts tagged"
+#~ msgstr "文章标签"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "“ %s ”的搜索结果"
+
+#~ msgid "tagged with"
+#~ msgstr "标签："
+
+#~ msgid "bm options"
+#~ msgstr "选项"
+
+#~ msgid "options"
+#~ msgstr "选项"
+
+#~ msgid "caogen js"
+#~ msgstr "大华网调用JS"
+
+#~ msgid "Error: please select a side."
+#~ msgstr "错误：请选择你的辩论立场"
+
+#~ msgid "bm player"
+#~ msgstr "音频播放器"
+
+#~ msgid "Back to Top"
+#~ msgstr "回到顶部"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "您的评论正在等候审核"
+
+#~ msgid "(edit)"
+#~ msgstr "(编辑)"
+
+#, fuzzy
+#~ msgid "Add images from the galleries"
+#~ msgstr "从ngg图集中显示图片"
+
+#~ msgid "dis in dahuawang index  page are:"
+#~ msgstr "不在大华网首页显示的文章如下："
+
+#~ msgid "uploads options"
+#~ msgstr "图片上传选项"
+
+#~ msgid "bm widget"
+#~ msgstr "BM挂件"
+
+#~ msgid "The index widget area"
+#~ msgstr "草根播报侧边挂件"
+
+#~ msgid "recent comments"
+#~ msgstr "近期评论"
+
+#~ msgid "single"
+#~ msgstr "文章"
+
+#~ msgid "links"
+#~ msgstr "链接"
+
+#~ msgid "are you sure?"
+#~ msgstr "你确定？"
+
+#~ msgid "leave reply"
+#~ msgstr "发表评论"
+
+#, fuzzy
+#~ msgid "leave reply to %s"
+#~ msgstr "发表评论"
+
+#~ msgid "+add yours?"
+#~ msgstr "+加上你的吧？"
+
+#~ msgid "More &raquo;"
+#~ msgstr "阅读更多 &raquo;"
+
+#~ msgid "viewed"
+#~ msgstr "次"
+
+#~ msgid "recent topics"
+#~ msgstr "最新文章"
+
+#~ msgid "tags"
+#~ msgstr "标签"
+
+#, fuzzy
+#~ msgid "views"
+#~ msgstr "次"
+
+#~ msgid "most viewed"
+#~ msgstr "最多浏览"
+
+#~ msgid "most discussed"
+#~ msgstr "最多评论"
+
+#~ msgid "discussed"
+#~ msgstr "评论了"
+
+#~ msgid "times"
+#~ msgstr "次"
+
+#~ msgid "One Response to %2$s"
+#~ msgstr "一条评论"

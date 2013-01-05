@@ -10,7 +10,7 @@ cite{font-family:arial,"Segoe UI";font-size:16px;font-style:normal;font-weight:4
 -------------------------------------------------*/
 .comments-box{ padding: 0 15px; margin-top: 20px; }
 
-#respond h3,.comment-green{ line-height: 28px; color: #060; font-size: 14px; font-weight: 400; margin: 6px 0; padding: 0; }
+.comment-green{ line-height: 28px; color: #060; font-size: 14px; font-weight: 400; margin: 6px 0; padding: 0; }
 
 /* commentlist top level */
 ol.commentlist { 	list-style: none; 	margin: 0; 	padding: 0; }
