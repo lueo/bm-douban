@@ -1,0 +1,57 @@
+cite{font-family:arial,"Segoe UI";font-size:16px;font-style:normal;font-weight:400;color:#333;}
+.input_text{font-size:14px;line-height:20px;height:20px;border:1px solid #CCC;width:260px;color:#369;margin:3px;padding:3px;}
+#comment_text{font-size:14px;line-height:1.6em;}
+.commenttextarea{line-height:1.8em;font-family:"宋体";font-size:14px;color:#333; width:480px;border:1px solid #ccc;margin:auto;padding:6px;}
+
+.input_submit{font-size:14px;line-height:20px;height:26px;border:1px solid #B8D5B1;width:72px;color:#369;background-color:#E4F1DA;display:block;margin:3px 3px 3px 0px;padding:3px 8px;}
+
+
+/* comments
+-------------------------------------------------*/
+.comments-box{ padding: 0 15px; margin-top: 20px; }
+
+#respond h3,.comment-green{ line-height: 28px; color: #060; font-size: 14px; font-weight: 400; margin: 6px 0; padding: 0; }
+
+/* commentlist top level */
+ol.commentlist { 	list-style: none; 	margin: 0; 	padding: 0; }
+	ol.commentlist li{ margin-bottom: 20px; }
+		ol.commentlist li .comment-content { padding-bottom: 20px; display:block; line-height:1.5em; margin:10px 0 0px 60px; }
+			ol.commentlist li .comment-content img{ height: 100px; }
+
+	.comment-author { 	margin: 0 0 5px; }
+
+		.comment-author .avatar { position: absolute; 	margin: -4px 0 0 -5px; 	background: #eee; }
+
+		.comment-author .com-green{ background: #F3FAF3; margin-left: 60px; color: #060; font-weight: normal; height: 20px; line-height: 20px; margin-bottom: 0px; padding-left: 15px; }
+
+		.comment-author cite { 	font-weight: bold; font-size: 12px; }
+
+	.comment-reply-link {  font-size: .8em; 	font-weight: bold; text-decoration: none; }
+	.commententry { 	clear: both; }
+
+/*commentlist sub levels */
+ol.commentlist ul.children { 	margin: 0px 0 0 53px;}
+
+		/* cancel margin and padding when the level below 2 */
+		ol.commentlist ul.children li ul{ margin-left: 0px; }
+		ol.commentlist ul.children li ul li{ padding-left: 0px;  }
+
+	ol.commentlist ul .avatar { 	width: 32px; 	height: 32px; 	 float: left; 	margin: 5px 10px 0 0; }
+	ol.commentlist ul li .comment-content { margin:10px 0 0 60px; }
+
+/* respond */
+#respond{font-size:12px;font-weight:700;color:#777;line-height:30px; position: relative; 	margin-bottom: 40px; }
+	#respond .cancel-comment-reply { 	position: absolute; 	top: 20px; 	right: 0; }
+	#respond p{ color:#777; line-height: 24px; margin: 10px 0 0; }
+	#respond #cancel-comment-reply-link { 	font: bold .9em/1em Arial, Helvetica, sans-serif;   	padding: 2px; 	text-decoration: none; }
+		#respond #cancel-comment-reply-link:hover { 	text-decoration: none;	background-position: 0 -55px; }
+
+	#commentform input.text { 	width: 210px; 	margin-right: 5px; 	background: #fff; 	border: solid 1px #ccc; 	padding: 5px 7px; }
+	#commentform textarea { 	width: 80%; padding: 10px 7px; 	border: solid 1px #ccc; 	background: #fff; }
+		#commentform textarea:focus, #commentform input.text:focus { 	border: solid 1px #cccc; 	background: #fff; 	outline: none;  }
+	#commentform label {  margin-right: 5px;  padding: 5px 7px;  }
+
+	.submit {width: 110px;  cursor:pointer; font-weight:700; border:1px solid #ccc; background:#fff; color:#555; padding:5px 10px; }
+	.submit:hover { border:1px solid #c9d8da; background:#99CC00; color:#fff; }
+
+	.comments-box img,.searchform input { vertical-align:middle; }

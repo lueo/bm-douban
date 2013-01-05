@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-29 11:16+0800\n"
+"PO-Revision-Date: 2011-07-29 11:16+0800\n"
+"Last-Translator: xiaojianfeng <hong4861381@163.com>\n"
+"Language-Team: bm\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: D:\\AppServ\\www\\wp-content\\themes\\bm-caogen2.2\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:5
+msgid "Not Found"
+msgstr "没有你要找的！"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:6
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "很抱歉，找不到你要的，建议你搜索一下。"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:11
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/header.php:32
+msgid "Search in site..."
+msgstr "站内搜索..."
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:17
+msgid "yearly archive"
+msgstr "年度存档"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:19
+msgid "monthly archive"
+msgstr "文章存档"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:21
+msgid "category archive"
+msgstr "文章存档"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/404.php:23
+msgid "posts archive"
+msgstr "文章存档"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:30
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:50
+msgid "you must be"
+msgstr "你必须"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:30
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:50
+msgid "logged in"
+msgstr "登录："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:30
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:50
+msgid "to post comment"
+msgstr "发布评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:38
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:58
+msgid "logged as"
+msgstr "你的登录身份是："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:38
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:58
+msgid "log out"
+msgstr "注销"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:43
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:63
+msgid "name"
+msgstr "姓名"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:43
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:46
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:63
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:66
+msgid "(required)"
+msgstr "(必填)"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:46
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:66
+msgid "(mail)"
+msgstr "邮箱"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:46
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:66
+msgid "(wont publish)"
+msgstr "(不会公开)"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:49
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:69
+msgid "website"
+msgstr "网站"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:57
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:77
+msgid "submit comment"
+msgstr "评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments-popup.php:67
+msgid "Close this window."
+msgstr "关闭窗口"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:8
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "本文需要密码后才能查看"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:19
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:46
+msgid "No Comments"
+msgstr "暂无评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:19
+msgid "One Comment"
+msgstr "一条评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:19
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:46
+msgid "% Comments"
+msgstr " % 评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:25
+msgid "prev page"
+msgstr "上一页"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:25
+msgid "next page"
+msgstr "下一页"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/comments.php:33
+msgid "Comments are closed."
+msgstr "抱歉，暂时不能评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/sidebar.php:25
+msgid "posts rank"
+msgstr "阅读排行"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:42
+msgid "in text"
+msgstr "分类："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:46
+msgid "1 Comment"
+msgstr "暂无评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:47
+msgid "Edit"
+msgstr "编辑"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:51
+msgid "Continue reading&nbsp;&raquo;&nbsp;"
+msgstr "全文&nbsp;&raquo;&nbsp;"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:63
+msgid "You are here: "
+msgstr "当前位置："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:63
+msgid "home "
+msgstr "首页"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:70
+msgid "posts tagged"
+msgstr "文章标签"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:94
+#, php-format
+msgid "Search Results for: %s"
+msgstr "“ %s ”的搜索结果"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:97
+msgid "404"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:241
+msgid "N/A"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:271
+msgid "(Edit)"
+msgstr "（编辑）"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-functions.php:294
+msgid "tagged with"
+msgstr "标签："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-setup.php:11
+msgid "Save"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-setup.php:20
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-setup.php:22
+msgid "bm options"
+msgstr "选项"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-setup.php:24
+msgid "options"
+msgstr "选项"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:9
+msgid "display comment details"
+msgstr "BM评论显示增强版"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:10
+msgid "BM display comment plus"
+msgstr "BM评论显示增强版"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:74
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:145
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:227
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:403
+msgid "Title:"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:77
+msgid "exclude_id:"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:80
+msgid "only_id:"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:97
+msgid "display tags as a list"
+msgstr "以列表形式显示标签"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:98
+msgid "Bm Tag Widget"
+msgstr "BM标签列表"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:148
+msgid "amount:"
+msgstr "数量："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:161
+msgid "face list of readers"
+msgstr "显示读者头像"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:162
+msgid "Bm Readers Widget"
+msgstr "BM读者墙"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:230
+msgid "time limit settings:"
+msgstr "时间限制"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:235
+msgid "week(s)"
+msgstr "周"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:236
+msgid "month(s)"
+msgstr "月"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:237
+msgid "year(s)"
+msgstr "年"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:241
+msgid "faces amount:"
+msgstr "头像数量："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:253
+msgid "display images from galleries"
+msgstr "从ngg图集中显示图片"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:254
+msgid "BM NextGEN Widget"
+msgstr "BM ngg图集"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:284
+msgid "Title :"
+msgstr "标题："
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:290
+msgid "Show :"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:296
+msgid "Width x Height :"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:361
+msgid "show WP-Polls polls plus"
+msgstr "WP-Polls 投票插件增强版"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:362
+msgid "BM Polls"
+msgstr "BM投票"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:397
+msgid "Polls"
+msgstr "投票"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:406
+msgid "Display Polls Archive Link Below Poll?"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:408
+msgid "No"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:409
+msgid "Yes"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:414
+msgid "Poll To Display:"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:416
+msgid "Do NOT Display Poll (Disable)"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:417
+msgid "Display Random Poll"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/bm-widgets.php:418
+msgid "Display Latest Poll"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-cg-js.php:84
+msgid "caogen js"
+msgstr "大华网调用JS"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-cg-js.php:106
+msgid "build the js file for index page"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-cg-js.php:108
+msgid "dafault picture setting for home page"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-cg-js.php:111
+msgid "js dir:"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-debate.php:132
+msgid "Error: please select a side."
+msgstr "错误：请选择你的辩论立场"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-ngg-mange.php:31
+msgid "ngg manage plus"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-player.php:11
+msgid "bm player"
+msgstr "音频播放器"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/functions-player.php:47
+msgid "<div id=\"message\" class=\"updated fade\"><p>"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:26
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:32
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:35
+msgid "Invalid comment status."
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:29
+msgid "Sorry, comments are closed for this item."
+msgstr "抱歉，暂时不能评论"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:38
+msgid "Password Protected"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:65
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:72
+msgid "Error: please fill the required fields (name, email)."
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:74
+msgid "Error: please enter a valid email address."
+msgstr "请输入您的邮箱！"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:83
+msgid "Error: please type a comment."
+msgstr "错误：请输入你的评论内容"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:97
+msgid "Duplicate comment detected; it looks as though you&#8217;ve already said that!"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/bm/js/comments-ajax.php:106
+msgid "You are posting comments too quickly.  Slow down."
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/blog/footer.php:8
+msgid "Back to Top"
+msgstr "回到顶部"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/expo/comments-ajax.php:144
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/expo/comments-ajax.php:147
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等候审核"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/expo/comments-ajax.php:150
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/shuishoupai/index.php:4
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/shuishoupai/single.php:4
+msgid "(edit)"
+msgstr "(编辑)"
+
+#: D:\AppServ\www\wp-content\themes\bm-caogen2.2/z/video/index.php:10
+msgid "Y年Fj日 l"
+msgstr ""
+
+#: ../archive.php:9
+#: ../archive.php:12
+#: ../archive.php:15
+#: ../archive.php:18
+#, fuzzy
+msgid "Archive"
+msgstr "文章存档"
+
+#: ../archive.php:21
+msgid "Archive by Author"
+msgstr ""
+
+#: ../archive.php:24
+#, fuzzy
+msgid "Tag Archives:"
+msgstr "文章存档"
+
+#: ../archive.php:27
+#, fuzzy
+msgid "Search Results for: "
+msgstr "“ %s ”的搜索结果"
+
+#: ../bm-widgets.php:214
+#, fuzzy
+msgid "Add images from the galleries"
+msgstr "从ngg图集中显示图片"
+
+#: ../comments.php:57
+#, fuzzy
+msgid "Name"
+msgstr "姓名"
+
+#: ../comments.php:57
+#: ../comments.php:60
+#, fuzzy
+msgid "required"
+msgstr "(必填)"
+
+#: ../comments.php:60
+#, fuzzy
+msgid "Mail"
+msgstr "邮箱"
+
+#: ../comments.php:60
+msgid "wont publish"
+msgstr "不会公开"
+
+#: ../functions.php:38
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#~ msgid "dis in dahuawang index  page are:"
+#~ msgstr "不在大华网首页显示的文章如下："
+
+#~ msgid "uploads options"
+#~ msgstr "图片上传选项"
+
+#~ msgid "bm widget"
+#~ msgstr "BM挂件"
+
+#~ msgid "The index widget area"
+#~ msgstr "草根播报侧边挂件"
+
+#~ msgid "recent comments"
+#~ msgstr "近期评论"
+
+#~ msgid "single"
+#~ msgstr "文章"
+
+#~ msgid "links"
+#~ msgstr "链接"
+
+#~ msgid "are you sure?"
+#~ msgstr "你确定？"
+
+#~ msgid "leave reply"
+#~ msgstr "发表评论"
+
+#, fuzzy
+#~ msgid "leave reply to %s"
+#~ msgstr "发表评论"
+
+#~ msgid "+add yours?"
+#~ msgstr "+加上你的吧？"
+
+#~ msgid "More &raquo;"
+#~ msgstr "阅读更多 &raquo;"
+
+#~ msgid "viewed"
+#~ msgstr "次"
+
+#~ msgid "recent topics"
+#~ msgstr "最新文章"
+
+#~ msgid "tags"
+#~ msgstr "标签"
+
+#, fuzzy
+#~ msgid "views"
+#~ msgstr "次"
+
+#~ msgid "most viewed"
+#~ msgstr "最多浏览"
+
+#~ msgid "most discussed"
+#~ msgstr "最多评论"
+
+#~ msgid "discussed"
+#~ msgstr "评论了"
+
+#~ msgid "times"
+#~ msgstr "次"
+
+#~ msgid "One Response to %2$s"
+#~ msgstr "一条评论"
+
+#, fuzzy
+#~ msgid "more comment"
+#~ msgstr "一条评论"
