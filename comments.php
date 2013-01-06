@@ -16,12 +16,19 @@
 	<?php if ( have_comments() ){ ?>
 
 		<h2 id="comments" class="comment-green">
-			<?php comments_number(__('No Comments', 'bm'), __('One Comment', 'bm'), __('% Comments', 'bm') );?>　· · · · · ·  	
+			<?php comments_number(__('No Comments', 'bm'), __('One Comment', 'bm'), __('% Comments', 'bm') );?>　· · · · · ·
 		</h2>
 
 		<ol class="commentlist clearfix">
 			<?php wp_list_comments('type=comment&callback=mytheme_comment'); ?>
 		</ol>
+
+        <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
+        <nav id="comment-nav-above" class="clearfix">
+            <div class="nav-previous alignleft"><?php previous_comments_link( __( '&larr; 旧一点的评论' ) ); ?></div>
+            <div class="nav-next alignright"><?php next_comments_link( __( '新一点的评论 &rarr;' ) ); ?></div>
+        </nav>
+        <?php endif; // check for comment navigation ?>
 
 	<?php } ?>
 	<!-- end 评论列表 -->
