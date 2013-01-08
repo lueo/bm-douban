@@ -1,38 +1,23 @@
-<?php
-/**
- * The template for displaying posts in the Status Post Format on index and archive pages
- *
- * Learn more: http://codex.wordpress.org/Post_Formats
- *
- * @package WordPress
- * @subpackage Twenty_Eleven
- */
-?>
+<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<header class="entry-header">
-			<hgroup>
-				<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Status</a></h2>
-			</hgroup>
-		</header><!-- .entry-header -->
+    <header class="entry-header">
+        <h1 class="green"><?php the_title(); ?></h1>
+    </header><!-- .entry-header -->
 
-		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
-		<div class="entry-summary">
-			<?php the_excerpt(); ?>
-		</div><!-- .entry-summary -->
-		<?php else : ?>
-		<div class="entry-content">
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?>
-			<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
-		</div><!-- .entry-content -->
-		<?php endif; ?>
+    <small class="postdata_small">
+        <?php the_date(); echo "&nbsp;&nbsp;"; the_time(); ?>    <?php the_category(', ') ?>      <?php post_comments_feed_link($link_text = 'RSS'); ?>
+    </small>
 
-		<footer class="entry-meta">
-			<?php twentyeleven_posted_on(); ?>
-			<?php if ( comments_open() ) : ?>
-			<span class="sep"> | </span>
-			<span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
-			<?php endif; ?>
-			<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-		</footer><!-- #entry-meta -->
-	</article><!-- #post-<?php the_ID(); ?> -->
+    <div class="entry-content entry entrytext clearfix">
+
+        <?php the_content('<p class="serif">Read the rest of this entry &raquo;</p>'); ?>&nbsp;&nbsp;&nbsp;&nbsp;<?php comments_popup_link('暂无回应', '(1个回应)', '(%个回应)'); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div class="t_r"><?php edit_post_link('改', '(', ')'); ?></div>
+
+        <footer class="clearfix">
+            <?php the_tags('<div class="link_pages">标签： ', '&nbsp;&nbsp;&nbsp;&nbsp;', '</div>'); ?>
+        </footer>
+
+    </div>
+
+</article>

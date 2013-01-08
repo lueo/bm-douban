@@ -3,29 +3,35 @@
 <head>
 <meta charset="utf-8">
 <?php seo_desc_keywords(); ?>
+<meta name="viewport" content="width=device-width" />
 <title><?php seo_titles(); ?></title>
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <div class="top-nav">
   <div class="bd">
-    <div class="top-nav-items">
+    <nav class="top-nav-items">
         <?php wp_loginout(); ?>
-        <a href="<?php bloginfo('rss2_url'); ?>">RSS</a>    
+        <a href="<?php bloginfo('rss2_url'); ?>">RSS</a>
         <a href="http://bammoo.com/message" title="留言">留言</a>
-    </div>
+    </nav>
     <div class="site-desc"><?php bloginfo('description'); ?></div>
   </div>
 </div>
 
 <div id="wrapper">
-    <div id="header">
 
-        <h1><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1>
+    <header id="header">
 
-        <div class="nav">
+        <hgroup>
+            <h1>
+                <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
+            </h1>
+        </hgroup>
+
+        <nav class="nav" role="navigation">
 
             <div class="nav-items">
                 <?php wp_nav_menu( array('theme_location' => 'primary') ); ?>
@@ -40,6 +46,6 @@
                 </form>
             </div>
 
-        </div>
+        </nav>
 
-</div>
+    </header>
