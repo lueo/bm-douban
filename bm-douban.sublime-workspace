@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"img",
+				"imgData"
+			],
+			[
+				"to",
+				"toDataURL"
+			],
+			[
+				"d",
+				"dfn	Tag"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"get",
+				"get_comments"
+			],
+			[
+				"cache",
+				"cache_clear"
+			],
+			[
+				"ifr",
+				"ifr"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"app",
+				"appsolution"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"post-",
+				"post-meta"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"m",
+				"m_children"
+			],
+			[
+				"user",
+				"userTypeList"
+			],
+			[
+				"l",
+				"List"
+			],
+			[
+				"u",
+				"userType"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 317.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"settt",
+				"Set Syntax: Textile"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/www/doumii/wp-content/themes/bm-douban/header.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/index.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/style.css",
+		"/D/www/doumii/wp-content/themes/bm-douban/content.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/content-quote.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/content-status.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/archive.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/style.css",
+		"/D/www/doumii/wp-content/themes/bm-douban/single.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/page.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/404.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/searchform.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/404.php",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/GBK Encoding Support/tmp/footer.php                D%3A%5Cwww%5Cdoumii%5Cwp-content%5Cthemes%5Cbm-douban%5Cfooter.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/gunji-ajax.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/content-none.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/category.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/content-quote.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/content-single.php",
+		"/D/www/0framework/bootstrap/css/bootstrap.css",
+		"/D/Users/jianfeng/Documents/GitHub/bootstrap/less/reset.less",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/content.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/single.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/index.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/comments.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/comments.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/functions.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/header.php",
+		"/D/www/wordpress/wp-content/themes/twentytwelve/footer.php",
+		"/D/www/doumii/wp-content/themes/bm-douban/footer.php",
+		"/D/www/wordpress/wp-app.php",
+		"/D/www/换IP地址后sql 替换.txt",
+		"/D/wdd/ifanr/index.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/main/webapp.js",
+		"/D/wdd/ifanr/wp-content/plugins/wptouch-pro/themes/classic/iphone/footer.php",
+		"/D/wdd/ifanr/wp-content/plugins/wptouch-pro/themes/classic/iphone/functions.php",
+		"/D/wdd/ifanr/wp-content/plugins/wptouch-pro/themes/classic/iphone/functions-content.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/special_templates/ifanr-android-app/index.php",
+		"/D/wdd/ifanr/api/cwb/index.php",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/cwb/index.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-feed/function-rss-filters.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-function/library/ad.php",
+		"/D/Users/jianfeng/Documents/Tencent Files/921988200/FileRecv/single.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/special_templates/lenovo-mobile-history/index.php",
+		"/D/projects/ifanr/爱范儿资料共享/广告/ifanr-android-ad/内容",
+		"/D/wdd/ifanr/api/cwb/index.html",
+		"/D/wdd/ifanr/api/v3.0/index.php",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/cwb/index.html",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/js/main/html2canvas.js",
+		"/D/wdd/ifanr/wp-content/plugins/wp-thumb/thumb-core.php",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/cwb/transImg.php",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/cwb/lib/upyun.util.php",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/cwb/lib/upyun.class.php",
+		"/D/wdd/ifanr/api/cwb/js/proxy.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/ifr/ifr.js",
+		"/C/Users/jianfeng/AppData/Local/Temp/Rar$DIa0.488/txt2img_generater.php",
+		"/D/wdd/ifanr/api/cwb/transImg.php",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jianfeng/AppData/Local/Temp/Rar$DIa0.424/txt2img.php",
+		"/D/wdd/ifanr/api/cwb/css/page.css",
+		"/D/wdd/ifanr/api/cwb/changWeibo/index.html",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/wdd/ifanr/api/cwb/upyun.util.php",
+		"/D/wdd/ifanr/wp-content/plugins/wp-thumb/wp-thumb.php",
+		"/D/wdd/ifanr/api/cwb/changWeibo/js/transImg.php",
+		"/D/wdd/ifanr/api/cwb/changWeibo/js/proxy.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-function/library/weixinr.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/main/app.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/main/sns.js",
+		"/D/Users/jianfeng/Documents/GitHub/ifanrDoc/js/ifr/ifr.box.js",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/special_templates/lenovo-mobile-history/style544644.css",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/special_templates/ifanr-android-app/style.css",
+		"/D/wdd/ifanr/api/v3.0/library/config.php",
+		"/D/Users/jianfeng/Desktop/installservice.bat",
+		"/D/wdd/ifanr/api/v3.0/library/util.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/siteapp.css",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/single.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/single-news.php",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/header-recommend-post.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/special_templates/ifanr-iphone-app/index.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/rewrite.php",
+		"/D/wdd/ifanr/wp-includes/post.php",
+		"/D/wdd/ifanr/wp-includes/rewrite.php",
+		"/D/wdd/ifanr/wp-content/plugins/ifanr-custom-post-type/post-type.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/jquery.plugin/jquery.bmSlide.0.1.8.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/jquery.plugin/ajaxupload.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/jquery.plugin/bm-ajaxupload.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/jquery.plugin/jquery.calendar.js",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/JSLint/README.md",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/JSLint/JSLint.sublime-build",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/JSLint/JSLint.sublime-settings",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/User/JSLint.sublime-settings",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/D/Program Files/Sublime Text 2.0/Data/Packages/SublimeLinter/README.md",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/event/apps.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/user/user.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/user/loginBox.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/user/login.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/js/ifr/ifr.box.js",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/user/login.css",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/plugins/overlayer.css",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/entry.css",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/entry-custom.css",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/webapp.css",
+		"/D/wdd/ifanr/wp-content/plugins/wp-thumb/upyun.util.php",
+		"/D/wdd/ifanr/wp-content/plugins/wp-thumb/upyun.class.php",
+		"/D/Users/jianfeng/Documents/GitHub/html2canvas/src/Parse.js",
+		"/D/wdd/ifanr/wp-content/plugins/wp-thumb/upyun.config.php",
+		"/D/wdd/ifanr/wp-content/plugins/wp-thumb/thumb-util.php",
+		"/C/Users/jianfeng/AppData/Local/Temp/Rar$DIa0.608/wp-recentcomments.php",
+		"/C/Users/jianfeng/AppData/Local/Temp/Rar$DIa0.053/core.php",
+		"/C/Users/jianfeng/AppData/Local/Temp/Rar$DRa0.443/wp-recentcomments/js/wp-recentcomments-jquery.dev.js",
+		"/D/wdd/ifanr/wp-content/plugins/faster-image-insert/faster-image-insert.php",
+		"/D/wdd/ifanr/wp-content/plugins/.hgignore",
+		"/D/wdd/ifanr/api/.hgignore",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/functions.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/css/base.css",
+		"/D/wdd/ifanr/api/v3.0/api.sublime-project",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/content.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/header.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/content-page.php",
+		"/D/wdd/ifanr/wp-content/themes/apple4us/apple4us.sublime-project",
+		"/D/wdd/ifanr/wp-content/themes/.hgignore",
+		"/D/Users/jianfeng/Documents/GitHub/html2canvas/html2canvas.sublime-project",
+		"/D/Users/jianfeng/Documents/GitHub/html2canvas/readme.md",
+		"/D/Users/jianfeng/Documents/GitHub/html2canvas/external/flashcanvas.js",
+		"/D/www/doumii/wp-content/themes/bm-douban/bm-douban/style.css"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"archive-header",
+			"twentytwelve",
+			"archive_header",
+			"-",
+			"</div>",
+			"<div class=\"archive_header\">",
+			"h2",
+			"title=\"下载爱范儿 iPhone App\"",
+			"localifanr.com",
+			"ad_rss_third",
+			"ifr_show_rss_ad",
+			"ad_rss_3",
+			"ad_rss_second",
+			"ad_rss_second_post",
+			"ifr_mobile_middle_banner",
+			"appsolution",
+			"_mobile",
+			"ios",
+			"mobile_ads",
+			"ad_mobile_middle_banner",
+			"'ad_mobile_middle_banner'",
+			"$ifr[ $option['key'] ]",
+			"../",
+			"share_cwb",
+			"tab",
+			" $open_value == 1 ",
+			"api",
+			"select",
+			"css",
+			"#recommend-post .ifanr-recommend-post-navi",
+			"ldpg-ip5",
+			"www.ifanr.com",
+			"[news",
+			"array('slug'=>$slug.'/%post_id%')",
+			"extra_permastructs",
+			"[0]",
+			"get_extra_permastruct",
+			"add_rewrite_rule",
+			"register_post_type",
+			"if (",
+			"beforeShow",
+			"afterShow",
+			"ad_post_bottom",
+			"ifanr-iphone-app-mobile-banner",
+			"banner",
+			"www.ifanr.com",
+			"ad_mobile_middle_banner_android",
+			"ad_mobile_middle_banner",
+			"aditem",
+			"ad",
+			"$ad_",
+			"smartphone",
+			"lenovo",
+			" ",
+			"link",
+			"http://www.ifanr.com/wp-content/uploads/",
+			"lenovo-video",
+			"upyun",
+			"\\",
+			"localhost",
+			"localifanr.com",
+			"orderby",
+			"hide",
+			">\n",
+			"ifanrank2012-itemlist",
+			"ifanrank2012-item",
+			"S_fragment",
+			"J_Gallery",
+			"ifanrank2012-itemlist",
+			"history-news",
+			"132249",
+			"136987",
+			"132249",
+			"http://www.ifanr.com/",
+			"ifanrank2012",
+			"end2012",
+			"ldpg",
+			"ipweb",
+			"init",
+			"_self",
+			"this",
+			"callbackOrSpeed",
+			"scrollTo",
+			"scrollParam",
+			"scrollTop",
+			"lastQueryMethod",
+			"stopDefault",
+			"url",
+			"', true",
+			"true",
+			"o.data",
+			"localCache",
+			"api",
+			"parseKey",
+			"enableCache",
+			"var ",
+			"serialize",
+			"_this",
+			"apiConnect",
+			"api",
+			"errorCallback",
+			"_options",
+			"successCallback",
+			"data",
+			"type",
+			"Autocompleter",
+			"setCache",
+			"AjaxUpload",
+			", options",
+			"return new apiConnect",
+			"_this._connect",
+			"IFR.apiConnect",
+			"$.apiConnect",
+			"Autocomplete",
+			"autocomplete",
+			"Autocomplete",
+			"autocomplete",
+			"Autocomplete",
+			"autocomplete",
+			"Autocomplete",
+			"autocomplete",
+			"Autocompleter",
+			"key",
+			"false",
+			", successCallback, errorCallback",
+			"_obj",
+			"ajax",
+			"$rc_options"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"IFR.api.get",
+			"http://cdn.ifanr.cn/",
+			"/wp-content/themes/apple4us/images/",
+			"/apps_files/",
+			"apps_files",
+			"#D90000",
+			"#671D12",
+			"thirdValue",
+			"secondValue",
+			"firstValue",
+			"obj"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.488819875776,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 252.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true
+}

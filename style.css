@@ -393,7 +393,7 @@ body {
     margin: 10px 0 0;
 }
 
-/** 通用 **/
+/** entry **/
 .post{
     font-size: 12px;
     line-height: 1.6em;
@@ -401,46 +401,52 @@ body {
     padding-bottom: 16px;
     margin: 0 0 40px;
 }
-    .post h2{
-        line-height: 28px;
-        color: #060;
-        font-size: 14px;
-        font-weight: 400;
-        margin: 0 0 5px;
-        padding: 0;
-    }
-    .post h3,
-        .post h4,
-        .post h5,
-        .post h6{
-            line-height: 1.8em;
-            font-weight: 400;
-            margin: 16px 3px 3px;
-        }
-    .post h3{
-        font-size: 16px;
-        color: #555;
-        background-color: #ffdf7c;
-        text-indent: 16px;
-    }
-    .post h4{
-        font-size: 14px;
-        color: #777;
-        background-color: #ffe9a8;
-        text-indent: 19px;
-    }
-    .post h5{
-        font-size: 12px;
-        color: #999;
-        background-color: #fff4d3;
-        text-indent: 21px;
-    }
-    .post h6{
-        font-size: 11.5px;
-        color: #bbb;
-        background-color: #fff9e9;
-        text-indent: 24px;
-    }
+.post h1{
+    line-height: 28px;
+    color: #060;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 5px;
+    padding: 0;
+}
+/** 列表 **/
+.post-lists h1{ background: url(images/bg-h2.gif) no-repeat left center; }
+.entry-index-meta {
+    text-align: right;
+}
+.post h2,
+.post h3,
+.post h4,
+.post h5,
+.post h6{
+    line-height: 1.8em;
+    font-weight: 400;
+    margin: 16px 3px 3px;
+}
+.post h3{
+    font-size: 16px;
+    color: #555;
+    background-color: #ffdf7c;
+    text-indent: 16px;
+}
+.post h4{
+    font-size: 14px;
+    color: #777;
+    background-color: #ffe9a8;
+    text-indent: 19px;
+}
+.post h5{
+    font-size: 12px;
+    color: #999;
+    background-color: #fff4d3;
+    text-indent: 21px;
+}
+.post h6{
+    font-size: 11.5px;
+    color: #bbb;
+    background-color: #fff9e9;
+    text-indent: 24px;
+}
     .post ul,
         .post ol{
             padding-left: 10px;
@@ -468,7 +474,7 @@ body {
         line-height: 18px;
         margin-bottom: 36px;
         display: block;
-color: #999;
+        color: #999;
     }
 
 .postdata_small a {
@@ -476,7 +482,7 @@ color: #999;
 }
 .postdata_small a:hover {
     color: #FFF;
-background: #039;
+    background: #039;
 }
 
     .post img,
@@ -524,12 +530,6 @@ background: #039;
 
 /** 页面 **/
 .narrowcolumn{}
-
-/** 列表 **/
-.post-lists h2{ background: url(images/bg-h2.gif) no-repeat left center; }
-.entry-index-meta {
-    text-align: right;
-}
 
 .link_pages {
     margin-top: 40px;
@@ -581,10 +581,32 @@ article.format-quote .entry-content p {
     padding-bottom: 1.714285714rem;
 }
 article.format-quote .entry-content blockquote {
-border-left: 5px solid #EAEEF1;
-color: #555;
-padding: 0px 12px;
+    border-left: 5px solid #EAEEF1;
+    color: #555;
+    padding: 0px 12px;
 }
+
+
+/* =Archives
+-------------------------------------------------------------- */
+
+.archive-header,
+.page-header {
+    margin-bottom: 48px;
+    margin-bottom: 3.428571429rem;
+    padding-bottom: 22px;
+    padding-bottom: 1.571428571rem;
+    border-bottom: 1px solid #ededed;
+}
+.archive-meta {
+    color: #757575;
+    font-size: 12px;
+    font-size: 0.857142857rem;
+    line-height: 2;
+    margin-top: 22px;
+    margin-top: 1.571428571rem;
+}
+
 
 /** 侧边 **/
 #sidebar{
@@ -640,44 +662,44 @@ padding: 0px 12px;
 .navigation div {
     width: 300px;
 }
-    .navigation a,
-        .navigation a:link{
-            text-decoration: none;
-            color: #369;
-            background-color: #fff;
-            margin: 2px;
-            padding: 2px 4px;
-        }
-    .navigation a:hover{
-        color: #fff;
-        background-color: #069;
-    }
-    .navigation a:active{
-        text-decoration: none;
-        color: #fff;
-        background-color: #f93;
-        margin: 2px;
-        padding: 2px 4px;
-    }
-    .navigation a.pages{
-        color: #666;
-        background-color: #FFF;
-        margin: 2px;
-        padding: 2px 4px;
-    }
-    .navigation a.current{
-        font-weight: 400;
-        color: #fff;
-        background-color: #83BF73;
-        margin: 2px;
-        padding: 2px 4px;
-    }
-    .navigation a.extend{
-        color: #999;
-        background-color: #FFF;
-        margin: 2px;
-        padding: 2px 4px;
-    }
+.navigation a,
+.navigation a:link{
+    text-decoration: none;
+    color: #369;
+    background-color: #fff;
+    margin: 2px;
+    padding: 2px 4px;
+}
+.navigation a.pages{
+    color: #666;
+    background-color: #FFF;
+    margin: 2px;
+    padding: 2px 4px;
+}
+.navigation a.current{
+    font-weight: 400;
+    color: #fff;
+    background-color: #83BF73;
+    margin: 2px;
+    padding: 2px 4px;
+}
+.navigation a.extend{
+    color: #999;
+    background-color: #FFF;
+    margin: 2px;
+    padding: 2px 4px;
+}
+.navigation a:hover{
+    color: #fff;
+    background-color: #069;
+}
+.navigation a:active{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f93;
+    margin: 2px;
+    padding: 2px 4px;
+}
 
 
 /** 相关文章 **/

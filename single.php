@@ -16,10 +16,11 @@
 
     <?php comments_template(); ?>
 
-    <?php endwhile; else: ?>
+    <?php endwhile;  ?>
 
-    <p>Sorry, no posts matched your criteria.</p>
+    <?php  else: ?>
 
+        <?php get_template_part( 'content', 'none' ); ?>
 
 <?php endif; ?>
 
